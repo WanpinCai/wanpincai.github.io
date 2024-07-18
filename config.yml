@@ -1,7 +1,7 @@
 baseURL: https://xyming108.github.io/ # 绑定的域名
-languageCode: zh # en-us
-title: Sulv's Blog
-theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
+languageCode: en-us # zh
+title: Wanpin's Blog
+theme: hugo-PaperMod # 主题名字，和themes文件夹下的一致
 
 enableInlineShortcodes: true
 enableEmoji: true # 允许使用 Emoji 表情，建议 true
@@ -12,10 +12,10 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics:  # 谷歌统计
+googleAnalytics: # 谷歌统计
 # Copyright: Sulv
 
-paginate: 15    # 首页每页显示的文章数
+paginate: 15 # 首页每页显示的文章数
 summaryLength: 140 # 文章概览的自字数，默认70
 
 minify:
@@ -32,33 +32,33 @@ defaultContentLanguageInSubdir: false
 menu:
   main:
     - identifier: search
-      name: 🔍 搜索
+      name: 🔍 Search
       url: search
       weight: 1
     - identifier: home
-      name: 🏠 主页
+      name: 🏠 Home
       url: /
       weight: 2
     - identifier: posts
-      name: 📚 文章
+      name: 📚 Articles
       url: posts
       weight: 3
     - identifier: tags
-      name: 🧩 标签
+      name: 🧩 Tags
       url: tags
       weight: 15
     - identifier: archives
-      name: ⏱️ 时间轴
+      name: ⏱️ Timeline
       url: archives/
       weight: 20
     - identifier: about
-      name: 🙋🏻‍♂️ 关于
+      name: 🙋‍♀️ About
       url: about
       weight: 50
-    - identifier: links
-      name: 🤝 友链
-      url: links
-      weight: 60
+    # - identifier: links
+    #   name: 🤝 Links of Friend
+    #   url: links
+    #   weight: 60
 
 outputs:
   home:
@@ -70,10 +70,10 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: ""
-  author: Sulv
+  author: Wanpin
   # author: ["Me", "You"] # multiple authors
 
-  defaultTheme: auto  # defaultTheme: light or  dark
+  defaultTheme: auto # defaultTheme: light or  dark
   disableThemeToggle: false
   DateFormat: "2006-01-02"
   ShowShareButtons: true
@@ -105,50 +105,50 @@ params:
     imageWidth: 150
     imageHeight: 150
     buttons:
-      - name: 🧱 建站
+      - name: 🧱 Code
         url: posts/blog
-      - name: 👨🏻‍💻 技术
+      - name: 🙇‍♀️ Tech
         url: posts/tech
-      - name: 📕 阅读
+      - name: 📕 Reading
         url: posts/read
-      - name: 🏖 生活
+      - name: 🏖 Life
         url: posts/life
 
   socialIcons:
     - name: github
-      url: "https://github.com/xyming108"
+      url: "https://github.com/wanpincai"
     - name: twitter
-      url: "img/twitter.png"
+      url: "https://x.com/WanpinCai"
     - name: facebook
-      url: "https://www.facebook.com/profile.php?id=100027782410997"
+      url: "https://www.facebook.com/cai.cai.5876/"
     - name: instagram
-      url: "img/instagram.png"
-    - name: QQ
-      url: "img/qq.png"
-    - name: WeChat
-      url: "img/wechat.png"
-    - name: bilibili
-      url: "https://space.bilibili.com/234461224"
+      url: "https://www.instagram.com/wanpin_cai/"
     - name: email
-      url: "mailto:1931559710@qq.com"
-    - name: RSS
-      url: "index.xml"
+      url: "mailto:wanpin77@gmail.com"
+    # - name: QQ
+    #   url: "img/qq.png"
+    # - name: WeChat
+    #   url: "img/wechat.png"
+    # - name: bilibili
+    #   url: "https://space.bilibili.com/234461224"
+    # - name: RSS
+    #   url: "index.xml"
 
   label: # 左上角图标
-    text: "Sulv's Blog"
-    icon: "img/Q.gif"
-    iconHeight: 35
+    text: "Wanpin's Blog"
+    icon: "img/W.gif"
+    iconHeight: 40
 
   analytics:
     google:
       SiteVerificationTag: ""
 
   assets:
-    favicon: "img/Q.gif"
-    favicon16x16: "img/Q.gif"
-    favicon32x32: "img/Q.gif"
-    apple_touch_icon: "img/Q.gif"
-    safari_pinned_tab: "img/Q.gif"
+    favicon: "img/W.gif"
+    favicon16x16: "img/W.gif"
+    favicon32x32: "img/W.gif"
+    apple_touch_icon: "img/W.gif"
+    safari_pinned_tab: "img/W.gif"
     disableFingerprinting: true # 禁用指纹
 
   cover:
@@ -163,25 +163,25 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: [ "title", "permalink", "summary" ]
+    keys: ["title", "permalink", "summary"]
 
-  StartYear: 2020 # 底部开始年份
-  FilingNo: 填写自己的备案号 # 底部备案号
-  PublicSecurityIconLink: 填自己的公安图标链接 # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
-  PublicNetworkSecurity: 填自己的公网安备 # 底部公网安备号
+  StartYear: 2024 # 底部开始年份
+  # FilingNo: 填写自己的备案号 # 底部备案号
+  # PublicSecurityIconLink: 填自己的公安图标链接 # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
+  # PublicNetworkSecurity: 填自己的公网安备 # 底部公网安备号
 
-  Reward: true #打赏是否开启
+  # Reward: true #打赏是否开启
   # 打赏微信图片地址，
   # 可用绝对和相对地址，相对地址的图片需放在static/img下，
-  # 填写格式为img/wechat_pay.png
-  WechatPay: img/wechat_pay.png
-  Alipay: img/alipay.png #打赏支付宝图片地址
+  # # 填写格式为img/wechat_pay.png
+  # WechatPay: img/wechat_pay.png
+  # Alipay: img/alipay.png #打赏支付宝图片地址
 
   # twikoo评论
-  twikoo:
-    version: 1.5.8 # 填写twikoo版本号
-    id:  # 填写自己的twikoo id
-    region:  # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数，请看twikoo官方文档
+  # twikoo:
+  #   version: 1.5.8 # 填写twikoo版本号
+  #   id: # 填写自己的twikoo id
+  #   region: # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数，请看twikoo官方文档
 
 taxonomies:
   category: categories
@@ -231,4 +231,3 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
-        
