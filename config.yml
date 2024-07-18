@@ -1,4 +1,4 @@
-baseURL: https://xyming108.github.io/ # 绑定的域名
+baseURL: https://wanpin.github.io/ # 绑定的域名
 languageCode: en-us # zh
 title: Wanpin's Blog
 theme: hugo-PaperMod # 主题名字，和themes文件夹下的一致
@@ -31,10 +31,6 @@ defaultContentLanguageInSubdir: false
 
 menu:
   main:
-    - identifier: search
-      name: 🔍 Search
-      url: search
-      weight: 1
     - identifier: home
       name: 🏠 Home
       url: /
@@ -43,18 +39,22 @@ menu:
       name: 📚 Articles
       url: posts
       weight: 3
-    - identifier: tags
-      name: 🧩 Tags
-      url: tags
-      weight: 15
-    - identifier: archives
-      name: ⏱️ Timeline
-      url: archives/
-      weight: 20
+    # - identifier: tags
+    #   name: 🧩 Tags
+    #   url: tags
+    #   weight: 15
+    # - identifier: archives
+    #   name: ⏱️ Timeline
+    #   url: archives/
+    #   weight: 20
     - identifier: about
       name: 🙋‍♀️ About
       url: about
       weight: 50
+    - identifier: search
+      name: 🔍 Search
+      url: search
+      weight: 60
     # - identifier: links
     #   name: 🤝 Links of Friend
     #   url: links
@@ -100,7 +100,7 @@ params:
     title: (〃'▽'〃)
     subtitle:
     # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
-    imageUrl: "img/Q.gif"
+    imageUrl: "img/W.gif"
     imageTitle:
     imageWidth: 150
     imageHeight: 150
@@ -137,7 +137,7 @@ params:
   label: # 左上角图标
     text: "Wanpin's Blog"
     icon: "img/W.gif"
-    iconHeight: 40
+    iconHeight: 32
 
   analytics:
     google:

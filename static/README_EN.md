@@ -12,7 +12,7 @@ Language：English | [中文](https://github.com/xyming108/sulv-hugo-papermod)
 
 ## 3. Modify information
 
-There are many personal information in the template that need to be configured by yourself. Please be patient to modify it. You can refer to the blogger's website building tutorial:[ https://www.sulvblog.cn/posts/blog/ ]( https://www.sulvblog.cn/posts/blog/ )
+There are many personal information in the template that need to be configured by yourself. Please be patient to modify it. You can refer to the blogger's website building tutorial:[ https://www.sulvblog.cn/posts/blog/ ](https://www.sulvblog.cn/posts/blog/)
 
 ## 4. Hugo blog exchange group
 
@@ -44,6 +44,5 @@ gallery:
 ```
 
 ## 5. Possible problems
-
 
 1. Some users will deploy to GitHub and may encounter cross system problems, such as the prompt `lf will be replaced by CRLF in *******`, and then enter the command: `git config core.autocrlf false`, which solves the problem of automatic conversion of line breaks。

@@ -1,5 +1,5 @@
 ---
-title: "🙋‍♀️About"
+title: "🙋‍♀️ About Me"
 layout: about
 date: 2021-11-06T14:57:28+08:00
 hidemeta: true
@@ -20,7 +20,7 @@ cover:
   relative: false
 ---
 
-<p style="font-size: 25px;">关于我</p>
+<p style="font-size: 25px;">Hi, here</p>
 
 |             |                        |
 | ----------- | ---------------------- |
