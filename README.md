@@ -1,25 +1,21 @@
-> 该主题根据 Hugo PaperMod 主题修改而来: https://github.com/adityatelange/hugo-PaperMod
+This theme is modified based on the Hugo PaperMod theme: https://github.com/adityatelange/hugo-PaperMod
 
-## 1. git clone 拉取代码
+1. Cloning the Codebase
+   ① Use git clone to fetch the code to your desktop. This will create a directory named sulv-hugo-papermod on your desktop.
 
-① 用`git clone`的方式拉取代码至桌面，此时会在桌面生成 sulv-hugo-papermod 目录
+② Navigate into the sulv-hugo-papermod directory and run git submodule update --init. This command fetches the submodule under themes/hugo-PaperMod/, which contains the official theme.
 
-② 进入到 sulv-hugo-papermod 目录，输入`git submodule update --init`，表示拉取 themes/hugo-PaperMod/下的子模块，里面放的是官方主题
+2. Starting the Interface
+   ③ Navigate to the sulv-hugo-papermod directory. In the terminal, run hugo server -D and open localhost:1313 in your browser to view the ready-made blog template.
 
-## 2. 启动界面
+3. Modifying Information
+   There are several personal information fields within the template that need to be configured manually. Please take your time to modify these. You can refer to the blogger's website creation tutorial for guidance: https://www.sulvblog.cn/posts/blog/
 
-③ 把目录定位到 sulv-hugo-papermod 下，在终端输入`hugo server -D`，在浏览器输入：localhost:1313 即可看到现成的博客模板。
+4. Usage of Shortcodes
+   bilibili: {{< bilibili BV1Fh411e7ZH(fill in bvid) >}}
 
-## 3. 修改信息
+youtube: {{< youtube w7Ft2ymGmfc >}}
 
-模板内部有许多个人信息需要自己配置，请耐心修改完，可以参考博主的建站教程：[https://www.sulvblog.cn/posts/blog/](https://www.sulvblog.cn/posts/blog/)
+ppt: {{< ppt src="URL" >}}
 
-## 4. shortcodes 使用方法
-
-`bilibili: {{< bilibili BV1Fh411e7ZH(填 bvid) >}}`
-
-`youtube: {{< youtube w7Ft2ymGmfc >}}`
-
-`ppt: {{< ppt src="网址" >}}`
-
-`douban: {{< douban src="网址" >}}`
+douban: {{< douban src="URL" >}}

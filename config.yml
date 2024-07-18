@@ -1,4 +1,4 @@
-baseURL: https://wanpin.github.io/ # 绑定的域名
+# baseURL: https://wanpin.github.io/ # 绑定的域名
 languageCode: en-us # zh
 title: Wanpin's Blog
 theme: hugo-PaperMod # 主题名字，和themes文件夹下的一致
@@ -12,7 +12,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: # 谷歌统计
+# googleAnalytics: # 谷歌统计
 # Copyright: Sulv
 
 paginate: 15 # 首页每页显示的文章数
