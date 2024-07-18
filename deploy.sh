@@ -22,7 +22,6 @@ git branch -M gh-pages
 # 推送到 GitHub 的 gh-pages 分支
 git remote add origin https://github.com/wanpincai/wanpincai.github.io.git
 
-git remote set-url origin https://github.com/WanpinCai/wanpincai.github.io.git
 git push --force origin gh-pages
 
 # 返回到项目根目录
