@@ -1,5 +1,5 @@
 ---
-title: "🧱 Home"
-# description: "本博客的搭建经验都在这里"
+title: "🧱 Design"
+description: "User Interface Design and product design"
 hidemeta: true # 是否隐藏文章的元信息，如发布日期、作者等
 ---

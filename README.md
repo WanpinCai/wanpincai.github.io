@@ -8,4 +8,4 @@ This theme is modified based on the Hugo PaperMod theme: https://github.com/adit
 
 ## 2. 启动界面
 
-③ 在终端输入`hugo server -D`，在浏览器输入：localhost:1313 即可看到现成的博客模板。
+③ 在终端输入`hugo server -D`，即可看到本地网站。

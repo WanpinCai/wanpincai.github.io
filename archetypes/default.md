@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
-author: ["Sulv"]
+author: ["Wan"]
 keywords: 
 - 
 categories: # 没有分类界面可以不填写
@@ -28,7 +28,3 @@ cover:
     alt: ""
     relative: false
 ---
-
-
-
-

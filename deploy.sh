@@ -13,7 +13,6 @@ cd public
 git init
 git add .
 git commit -m "Deploy to GitHub Pages"
-git push -u origin main
 
 
 # 如果这是首次部署，则需要创建 gh-pages 分支

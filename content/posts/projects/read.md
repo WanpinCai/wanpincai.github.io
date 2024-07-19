@@ -1,20 +1,20 @@
 ---
-title: "Read"
-date: 2022-05-05T00:18:06+08:00
-lastmod: 2022-05-05T00:18:06+08:00
-author: ["Sulv"]
+title: "Product Manager and her project"
+date: 2024-07-19T00:18:06+08:00
+lastmod: 2024-07-19T00:18:06+08:00
+author: ["Wanpin"]
 keywords:
   -
 categories:
   -
 tags:
-  - read
-description: ""
+  - Projects
+description: "ERP/WMS/PDA"
 weight:
 slug: ""
 draft: false # 是否为草稿
-comments: true
-reward: true # 打赏
+comments: false
+reward: false # 打赏
 mermaid: true #是否开启mermaid
 showToc: true # 显示目录
 TocOpen: true # 自动展开目录

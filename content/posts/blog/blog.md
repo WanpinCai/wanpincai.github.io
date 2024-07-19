@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Talk about the Design"
 date: 2022-05-05T00:18:23+08:00
 lastmod: 2022-05-05T00:18:23+08:00
 author: ["Wanpin"]
@@ -9,12 +9,12 @@ categories:
   -
 tags:
   - blog
-description: ""
+description: "Website design, Application design"
 weight:
 slug: ""
 draft: false # 是否为草稿
-comments: true
-reward: true # 打赏
+comments: false
+reward: false # 打赏
 mermaid: true #是否开启mermaid
 showToc: true # 显示目录
 TocOpen: true # 自动展开目录

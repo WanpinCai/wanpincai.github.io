@@ -1,6 +1,6 @@
 baseURL: https://wanpincai.github.io/ # 绑定的域名
 languageCode: en-us # zh
-title: Wanpin's Blog
+title: Wan's town
 theme: hugo-PaperMod # 主题名字，和themes文件夹下的一致
 
 enableInlineShortcodes: true
@@ -26,7 +26,7 @@ permalinks: # 访问博客时网址的显示形式
   post: "/:title/"
   # post: "/:year/:month/:day/:title/"
 
-defaultContentLanguage: zh # 最顶部首先展示的语言页面
+defaultContentLanguage: en #zh # 最顶部首先展示的语言页面
 defaultContentLanguageInSubdir: false
 
 menu:
@@ -43,22 +43,27 @@ menu:
     #   name: 🧩 Tags
     #   url: tags
     #   weight: 15
-    # - identifier: archives
-    #   name: ⏱️ Timeline
-    #   url: archives/
-    #   weight: 20
+    - identifier: archives
+      name: ⏱️ Timeline
+      url: archives/
+      weight: 20
     - identifier: about
       name: 🙋‍♀️ About
       url: about
       weight: 50
-    - identifier: search
-      name: 🔍 Search
-      url: search
-      weight: 60
+
     # - identifier: links
     #   name: 🤝 Links of Friend
     #   url: links
     #   weight: 60
+    - identifier: coffee
+      name: ☕️ Coffee
+      url: coffee
+      weight: 60
+    - identifier: search
+      name: 🔍 Search
+      url: search
+      weight: 80
 
 outputs:
   home:
@@ -99,22 +104,24 @@ params:
     enabled: true
     title: (〃'▽'〃)
     subtitle:
-    # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
+    subtitle: "🧨 We all friend, we are future 🧨<br/>👇 Connect or Contact 👇"
     imageUrl: "img/W.gif"
     imageTitle:
     imageWidth: 150
     imageHeight: 150
-    buttons:
-      - name: 🧱 Code
-        url: posts/blog
-      - name: 🙇‍♀️ Tech
-        url: posts/tech
-      - name: 📕 Reading
-        url: posts/read
-      - name: 🏖 Life
-        url: posts/life
+    # buttons:
+    #   - name: 🧱 Code
+    #     url: posts/blog
+    #   - name: 🙇‍♀️ Tech
+    #     url: posts/tech
+    #   - name: 📕 Reading
+    #     url: posts/read
+    #   - name: 🏖 Life
+    #     url: posts/life
 
   socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/wanpincai/"
     - name: github
       url: "https://github.com/wanpincai"
     - name: twitter
@@ -125,6 +132,7 @@ params:
       url: "https://www.instagram.com/wanpin_cai/"
     - name: email
       url: "mailto:wanpin77@gmail.com"
+ 
     # - name: QQ
     #   url: "img/qq.png"
     # - name: WeChat
@@ -135,7 +143,7 @@ params:
     #   url: "index.xml"
 
   label: # 左上角图标
-    text: "Wanpin's Blog"
+    text: "Wan's Town"
     icon: "img/W.gif"
     iconHeight: 32
 
@@ -170,11 +178,11 @@ params:
   # PublicSecurityIconLink: 填自己的公安图标链接 # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
   # PublicNetworkSecurity: 填自己的公网安备 # 底部公网安备号
 
-  # Reward: true #打赏是否开启
+  Reward: true #打赏是否开启
   # 打赏微信图片地址，
   # 可用绝对和相对地址，相对地址的图片需放在static/img下，
   # # 填写格式为img/wechat_pay.png
-  # WechatPay: img/wechat_pay.png
+  RevolutPay: img/revolut_pay.jpg
   # Alipay: img/alipay.png #打赏支付宝图片地址
 
   # twikoo评论
@@ -231,3 +239,5 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
+
+publishDir: "public"
