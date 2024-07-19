@@ -37,6 +37,6 @@ cover:
 
 <!-- |             |                        |
 | ----------- | ---------------------- |
-| Name:       | Wanpin                 |
+| Name:       | Wan                |
 | Profession: | PM、UI、UX、programmer |
 | Sport:      | Hiking、Walking        | -->
