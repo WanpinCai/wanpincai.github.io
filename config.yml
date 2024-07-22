@@ -1,5 +1,5 @@
 baseURL: https://wanpincai.github.io/ # 绑定的域名
-languageCode: en-us # zh
+languageCode: en # zh
 title: Wan's town
 theme: hugo-PaperMod # 主题名字，和themes文件夹下的一致
 
@@ -241,3 +241,4 @@ services:
     disableInlineCSS: true
 
 publishDir: "public"
+

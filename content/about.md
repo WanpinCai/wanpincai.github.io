@@ -24,14 +24,17 @@ cover:
   Hi, here<br>
   I don't know how to describe myself, maybe these words would define some of me: 
   <span style="background-color: yellow;">Independent</span>, 
-  <span style="background-color: yellow;">Women</span>, 
   <span style="background-color: yellow;">Feminism</span>, 
   <span style="background-color: yellow;">Product Manager</span>, 
   <span style="background-color: yellow;">UI designer</span>, 
-  <span style="background-color: yellow;">Depression</span>.
+  <span style="background-color: yellow;">Computer Science</span>, 
+  <span style="background-color: yellow;">Artificial Intelligence</span>, 
+  <span style="background-color: yellow;">Depression</span> and so on, but the tags can't tell you the truth: who I am, you would never know me and so as I.
   <br>
-  See, it is terrible to introduce someone of myself, so my name is Wanpin, I am from China, Fujian province is my hometown, located in the southeast of China, across the Taiwan.<br>
-  I have 3 sisters, they all live in China. My family are farmers, we plant fruits. I had a very great and happy time in China.
+  See, it is terrible to introduce someone of myself ^_^, my name is Wanpin, I am from China, Fujian province is my hometown, located in the southeast of China, across the Taiwan. I have 3 sisters, they all live in China. My family are farmers, we plant fruits. I had a very great and happy time in China.
+  <br>
+  June 2022, aged 32, I was leaving Xiamen airport and came to Dublin for my new life, alone, without friend, without family. Today is July 2024, I am still alone living in here, time flies, think of these two years, sometimes I felt it is so long and lonely. How can I describe these days: free, Air cleaning, Howth/Bray/Wicklow has amazing views. I breath, touched, feeling. I wouldn't say I love here so much, just no hate. I met people from all over the world.
+  <br>
   wait...continue...
 </p>
 
