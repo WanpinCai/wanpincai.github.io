@@ -35,7 +35,9 @@ cover:
   <br>
   June 2022, aged 32, I was leaving Xiamen airport and came to Dublin for my new life, alone, without friend, without family. Today is July 2024, I am still alone living in here, time flies, think of these two years, sometimes I felt it is so long and lonely. How can I describe these days: free, Air cleaning, Howth/Bray/Wicklow has amazing views. I breath, touched, feeling. I wouldn't say I love here so much, just no hate. I met people from all over the world.
   <br>
-  wait...continue...
+
+wait...continue...
+
 </p>
 
 <!-- |             |                        |

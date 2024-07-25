@@ -12,8 +12,8 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-# googleAnalytics: # 谷歌统计
-# Copyright: Sulv
+googleAnalytics: # 谷歌统计
+Copyright: Wan
 
 paginate: 15 # 首页每页显示的文章数
 summaryLength: 140 # 文章概览的自字数，默认70
@@ -35,23 +35,26 @@ menu:
       name: 🏠 Home
       url: /
       weight: 2
-    - identifier: posts
-      name: 📚 Articles
-      url: posts
-      weight: 3
-    # - identifier: tags
-    #   name: 🧩 Tags
-    #   url: tags
-    #   weight: 15
+    # - identifier: posts
+    #   name: 📚 Articles
+    #   url: posts
+    #   weight: 3
+    - identifier: tags
+      name: 🧩 Tags
+      url: tags
+      weight: 5
     - identifier: archives
       name: ⏱️ Timeline
       url: archives/
-      weight: 20
+      weight: 3
     - identifier: about
       name: 🙋‍♀️ About
       url: about
-      weight: 50
-
+      weight: 7
+    - identifier: resume
+      name: 📄 Resume
+      url: resume
+      weight: 8
     # - identifier: links
     #   name: 🤝 Links of Friend
     #   url: links
@@ -59,11 +62,11 @@ menu:
     - identifier: coffee
       name: ☕️ Coffee
       url: coffee
-      weight: 60
+      weight: 9
     - identifier: search
       name: 🔍 Search
       url: search
-      weight: 80
+      weight: 10
 
 outputs:
   home:
@@ -109,15 +112,15 @@ params:
     imageTitle:
     imageWidth: 150
     imageHeight: 150
-    # buttons:
-    #   - name: 🧱 Code
-    #     url: posts/blog
-    #   - name: 🙇‍♀️ Tech
-    #     url: posts/tech
-    #   - name: 📕 Reading
-    #     url: posts/read
-    #   - name: 🏖 Life
-    #     url: posts/life
+    buttons:
+      - name: 🧱 Code
+        url: posts/blog
+      - name: 🙇‍♀️ Tech
+        url: posts/tech
+      - name: 📕 Reading
+        url: posts/read
+      - name: 🏖 Life
+        url: posts/life
 
   socialIcons:
     - name: linkedin

@@ -1,5 +1,5 @@
 ---
-title: "Talk about the Design"
+title: "Web Design"
 date: 2022-05-05T00:18:23+08:00
 lastmod: 2022-05-05T00:18:23+08:00
 author: ["Wanpin"]
@@ -8,8 +8,8 @@ keywords:
 categories:
   -
 tags:
-  - blog
-description: "Website design, Application design"
+  - design
+description: "11Website design, Application design"
 weight:
 slug: ""
 draft: false # 是否为草稿
