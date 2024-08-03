@@ -112,15 +112,15 @@ params:
     imageTitle:
     imageWidth: 150
     imageHeight: 150
-    buttons:
-      - name: 🧱 Code
-        url: posts/blog
-      - name: 🙇‍♀️ Tech
-        url: posts/tech
-      - name: 📕 Reading
-        url: posts/read
-      - name: 🏖 Life
-        url: posts/life
+    # buttons:
+    #   - name: 🧱 Code
+    #     url: posts/blog
+    #   - name: 🙇‍♀️ Tech
+    #     url: posts/tech
+    #   - name: 📕 Reading
+    #     url: posts/read
+    #   - name: 🏖 Life
+    #     url: posts/life
 
   socialIcons:
     - name: linkedin
