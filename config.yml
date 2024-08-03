@@ -243,5 +243,5 @@ services:
   twitter:
     disableInlineCSS: true
 
-publishDir: "public"
+publishDir: "docs"
 
