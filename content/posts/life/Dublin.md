@@ -8,7 +8,7 @@ keywords:
 categories:
   -
 tags:
-  - Life In Dublin
+  - Dublin
 description: ""
 weight:
 slug: ""

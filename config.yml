@@ -39,10 +39,10 @@ menu:
     #   name: 📚 Articles
     #   url: posts
     #   weight: 3
-    - identifier: tags
-      name: 🧩 Tags
-      url: tags
-      weight: 5
+    # - identifier: tags
+    #   name: 🧩 Tags
+    #   url: tags
+    #   weight: 5
     - identifier: archives
       name: ⏱️ Timeline
       url: archives/

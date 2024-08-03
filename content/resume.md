@@ -20,7 +20,7 @@ cover:
 ---
 
 <p style="text-align: center;">
-  <a href="/path/to/your/resume.pdf" target="_blank" style="padding: 10px 20px; font-size: 16px; text-decoration: none; border: 1px solid #000; border-radius: 5px; display: inline-block;">Open my PDF Resume</a>
+  <a href="/Wanpin Cai_Resume.pdf" target="_blank" style="padding: 10px 20px; font-size: 16px; text-decoration: none; border: 1px solid #000; border-radius: 5px; display: inline-block;">Open my PDF Resume</a>
 </p>
 
 <!DOCTYPE html>
